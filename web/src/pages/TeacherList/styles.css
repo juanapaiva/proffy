@@ -35,15 +35,8 @@
   font: 1.6rem Archivo;
 }
 
-#search-teachers .input-block:focus-within::after {
-  width: calc(100% - 3.2rem);
-  height: 2px;
-  content: '';
-  background: var(--color-primary-light);
-  position: absolute;
-  left: 1.6rem;
-  right: 1.6rem;
-  bottom: 0;
+#search-teachers .input-block input:focus {
+  border-bottom: 3px solid var(--color-primary-light);
 }
 
 #page-teacher-list main {
