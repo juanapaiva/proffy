@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { Archivo_700Bold } from '@expo-google-fonts/archivo';
 
 const styles = StyleSheet.create({
   container: {
