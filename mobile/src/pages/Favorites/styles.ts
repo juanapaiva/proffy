@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F0F0F7',
   },
   teacherList: {
-    marginTop: -60,
+    marginTop: -40,
   }
 });
 
